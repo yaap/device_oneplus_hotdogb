@@ -25,6 +25,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Boot animation
+scr_resolution := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
