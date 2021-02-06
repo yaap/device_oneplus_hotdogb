@@ -116,6 +116,9 @@ vendor/lib64/libsdsprpc.so
 vendor/lib/libcvp_common.so
 vendor/lib64/libcvp_common.so
 
+# Dolby
+odm/etc/dolby/dax-default.xml
+
 # DRM
 vendor/bin/qseecomd
 vendor/lib/mediadrm/libwvdrmengine.so
