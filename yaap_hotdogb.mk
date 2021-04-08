@@ -18,7 +18,7 @@ $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 PRODUCT_NAME := yaap_hotdogb
 PRODUCT_DEVICE := hotdogb
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7T
+PRODUCT_MODEL := HD1905
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := normal
@@ -30,9 +30,8 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Build info
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7T \
-    PRODUCT_NAME=OnePlus7T \
-    PRIVATE_BUILD_DESC="OnePlus7T_EEA-user 10 QKQ1.190716.003 1910122101 release-keys"
+    PRODUCT_NAME=OnePlus7T
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
